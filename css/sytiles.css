@@ -1,0 +1,12 @@
+.header{
+  display: flex;
+   
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    
+
+}
+.whatsapp {
+  position: absolute sticky;
+
+}

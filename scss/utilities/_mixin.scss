@@ -1,0 +1,44 @@
+@mixin flexbox ($flex-d,$justifi-c,$align-item,$wrap){
+    display: flex;
+    flex-direction: $flex-d;
+    justify-content: $justifi-c;
+    align-items: $align-item;
+    flex-wrap: $wrap;
+}
+
+.menu {
+    @include flexbox(column, inherit ,center, wrap)
+}
+
+.logo {
+    @include flexbox(column, inherit, center,wrap )
+  
+}
+
+h2{
+    @include flexbox(column, inherit, center,wrap )
+
+}
+
+.link {
+    @include flexbox(inherit, center, inherit, inherit )
+}
+
+h6{
+    @include flexbox(inherit, center , inherit ,inherit )
+}
+h4{
+    @include flexbox(inherit, center, inherit, inherit )
+}
+.formulario{
+    @include flexbox(column, inherit, center, inherit )
+}
+
+@mixin grid($grid-temple-colums, $grid-temple-rows){
+    display: grid;
+    grid-template-columns: $grid-temple-colums;
+    grid-template-rows: $grid-temple-rows;
+}
+.grid-container{
+    @include grid(auto, auto)
+}

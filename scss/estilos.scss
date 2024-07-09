@@ -1,0 +1,19 @@
+/*aca van los imports
+ejemplos
+$tipografia-principal
+$nombre del color que queremos ponerle*/
+@import "./utilities/variables";
+
+@import "./utilities/mixin";
+
+@import "./utilities/extend";
+
+@import "./utilities/animacion";
+
+@import "./components/header";
+
+@import "./components/footer";
+
+@import "./pages/main";
+
+@import "./utilities/media-queris";

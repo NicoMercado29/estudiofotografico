@@ -58,7 +58,7 @@ h4 {
   flex-wrap: inherit;
 }
 
-.grid-container {
+.portafolio {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -95,10 +95,14 @@ i {
   box-shadow: 0 0 15px orangered, 0 0 45px orangered, 0 0 75px orangered, 0 0 115px orangered;
 }
 
-.fa-whatsaap {
+.fa-whatsapp {
   background-color: rgb(25, 193, 25);
   color: white;
   box-shadow: 0 0 15px rgb(25, 193, 25), 0 0 45px rgb(25, 193, 25), 0 0 75px rgb(25, 193, 25), 0 0 115px rgb(25, 193, 25);
+}
+
+body {
+  background-image: linear-gradient(0deg, #f5e5e5 59%, #9be5d8 100%);
 }
 
 .principal {
@@ -107,11 +111,11 @@ i {
   text-align: center;
 }
 
-.grid-container .grid-item {
+.portafolio .grid-item {
   font-size: 5px;
   padding: 5px;
 }
-.grid-container .grid-item img {
+.portafolio .grid-item img {
   width: 100%;
   height: 100%;
 }
@@ -134,4 +138,85 @@ i {
 .cuatro {
   grid-column: 3/5;
   grid-row: 6/10;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+  padding-left: 30px;
+}
+
+.formulario input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9be5d8;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.formulario textarea {
+  background-color: white;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9be5d8;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+.formulario label {
+  display: block;
+  float: center;
+}
+
+.formulario button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #9be5d8;
+  border-color: #9be5d8;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+.formulario button p {
+  color: black;
+}
+
+.formulario p {
+  font-size: 20px;
+  color: black;
+}
+
+.nosotrosp {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .portafolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+  }
 }/*# sourceMappingURL=estilos.css.map */

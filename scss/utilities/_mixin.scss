@@ -39,6 +39,6 @@ h4{
     grid-template-columns: $grid-temple-colums;
     grid-template-rows: $grid-temple-rows;
 }
-.grid-container{
+.portafolio{
     @include grid(auto, auto)
 }

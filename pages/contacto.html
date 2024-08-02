@@ -17,7 +17,7 @@
     <nav class="navbar ">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-          <img src="../assents/camara.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top">
+          <img src="../assets/camara.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top">
           
         </a>
       </div>
@@ -46,36 +46,57 @@
 
   </main>
 
-  <h2>Escribinos</h2>
+  <h2>Contactanos</h2>
  
-  <h4>Contanos que servicio necesitas</h4>
 
-  <section class="formulario">
+	<div class="contact_form">
 
-    <form action="#" method="post">
-
-
-     <p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
-     <p><label for="celular">Celular  : <input type="text" id="celular"></label></p>
-      <p><label for="contanos">Comentanos: <textarea id="comentanos"></textarea></label></p>
-      <p><button type="submit">Enviar</button></p>
+		<div class="formulario">			
+				<h3>Escríbinos y en breve nos pondremos en contacto vos</h3>
 
 
-    </form>
+					<form action="https://formsubmit.co/nicolasmercado408@gmail.com" method="post">				
 
-    </section>
+						
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+							
+								<p>
+									<label for="telefone" class="colocar_telefono">Teléfono
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>		
+							
 
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
 
-
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					</form>
+		</div>	
+	</div>
 
 
   <footer>
     <div class="link">
       
       <div class="redes">
-        <a href="#"><i class="fa-brands fa-facebook-f" ></i></a>
-        <a href="#"><i class="fa-brands fa-instagram" ></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp" ></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp" ></i></a>
       </div>
     
     </div>
